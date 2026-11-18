@@ -309,7 +309,7 @@ export default function ProductDetail() {
             id="related-title"
             eyebrow="Para complementar"
             title="Productos relacionados"
-            description={category ? `Más soluciones de ${category.name.toLowerCase()} y productos compatibles.` : undefined}
+            description={category ? `Más productos de ${category.name.toLowerCase()} y compatibles.` : undefined}
           />
           <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-4">
             {related.map((p) => (

@@ -16,7 +16,7 @@ export function Logo({ className, size = "md", testId = "brand-logo-link", fluid
     <Link
       to="/"
       data-testid={testId}
-      aria-label="CASANOVA, ir al inicio del catálogo"
+      aria-label="CASANOVA, ir al inicio"
       className={cn(
         "group items-center gap-2 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal sm:gap-3",
         fluid ? "flex w-full min-w-0" : "inline-flex shrink-0",

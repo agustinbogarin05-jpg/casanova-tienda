@@ -18,7 +18,7 @@ export default function Home() {
   const settings = data?.settings;
 
   useEffect(() => {
-    document.title = "CASANOVA · Tecnología para el hogar | Catálogo";
+    document.title = "CASANOVA · Catálogo de productos";
   }, []);
 
   // Header links / category picks from other pages ask to scroll to a section.
@@ -38,8 +38,11 @@ export default function Home() {
   }, [q]);
 
   return (
-    <div className="space-y-12 sm:space-y-20" data-testid="home-page">
-      <h1 className="sr-only">CASANOVA · Catálogo de tecnología para el hogar</h1>
+    <div data-testid="home-page">
+      <header className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 sm:pt-14 lg:px-8">
+        <h1 className="text-[34px] font-extrabold leading-[1.05] tracking-tight text-brand sm:text-5xl lg:text-6xl">Catálogo de productos</h1>
+      </header>
+      <div className="space-y-12 sm:space-y-20">
 
       <BestSellersCarousel products={products} categories={byId} settings={settings} isLoading={isLoading} />
 
@@ -59,6 +62,7 @@ export default function Home() {
       </div>
 
       <HowToBuy settings={settings} />
+      </div>
     </div>
   );
 }
