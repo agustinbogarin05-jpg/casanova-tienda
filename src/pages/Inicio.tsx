@@ -26,7 +26,7 @@ export default function Inicio() {
     <div className="space-y-14 pt-8 sm:space-y-24 sm:pt-14" data-testid="inicio-page">
       <section className={wrap} data-testid="inicio-portada">
         <h1 className="max-w-3xl text-[34px] font-extrabold leading-[1.05] tracking-tight text-brand sm:text-5xl lg:text-6xl">
-          La tecnología que transforma tus espacios
+                    Hacemos que tus espacios sean más inteligentes.
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink sm:text-lg">
           Integramos tecnología para que puedas controlar luces, televisores, aire acondicionado y otros dispositivos desde tu celular, crear automatizaciones y simplificar tu rutina. Desde una habitación hasta una casa completa, te asesoramos y acompañamos en cada paso.
