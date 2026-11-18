@@ -10,9 +10,9 @@
     --color-brand: #123047;   /* azul profundo: títulos y palabra gigante */
     --color-cream: #f7f7f4;   /* blanco cálido: fondo de todo */
     --color-ink: #20272d;     /* grafito: textos de apoyo */
-    --color-teal: #19a89a;    /* acento: íconos, subrayados, detalles (y botones de WhatsApp) */
+    --color-teal: #2e6a94;    /* acento: íconos, subrayados, detalles (y botones de WhatsApp) */
     --color-beige: #e8e2d8;   /* tarjetas y líneas suaves */
-    --color-teal-dark: #148b80; /* solo hover de los botones de WhatsApp (sin cambios) */
+    --color-teal-dark: #245779; /* solo hover de los botones de WhatsApp (sin cambios) */
 
     --animate-fade-up: fade-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
     --animate-fade-in: fade-in 0.3s ease-out both;
@@ -88,9 +88,9 @@
     --destructive: #123047;
     --border: #e8e2d8;
     --input: #e8e2d8;
-    --ring: #19a89a;
+    --ring: #2e6a94;
     --chart-1: #123047;
-    --chart-2: #19a89a;
+    --chart-2: #2e6a94;
     --chart-3: #e8e2d8;
     --chart-4: #20272d;
     --chart-5: #f7f7f4;
@@ -102,7 +102,7 @@
     --sidebar-accent: #e8e2d8;
     --sidebar-accent-foreground: #123047;
     --sidebar-border: #e8e2d8;
-    --sidebar-ring: #19a89a;
+    --sidebar-ring: #2e6a94;
 }
 
 @layer base {

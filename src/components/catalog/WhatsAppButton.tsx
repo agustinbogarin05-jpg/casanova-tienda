@@ -18,9 +18,9 @@ interface WhatsAppButtonProps {
   href?: string;
 }
 
-// Every WhatsApp click keeps the same teal treatment (as requested), everywhere in the app.
+// Todos los botones de WhatsApp usan el azul oscuro de la marca, en toda la web.
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-xl bg-teal font-semibold whitespace-nowrap text-white transition-[background-color,transform] duration-200 hover:bg-teal-dark active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand";
+  "inline-flex items-center justify-center gap-2 rounded-xl bg-brand font-semibold whitespace-nowrap text-cream transition-[background-color,transform] duration-200 hover:bg-ink active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal";
 
 const sizes = { sm: "h-10 px-3.5 text-sm", md: "h-11 px-5 text-[15px]", lg: "h-13 px-6 text-base" };
 
