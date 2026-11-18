@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { SiFacebook, SiInstagram, SiTiktok, SiYoutube } from "@icons-pack/react-simple-icons";
 import { useCatalog } from "@/lib/catalog";
@@ -45,7 +46,7 @@ function SiteFooter() {
   const { update } = useCatalogParams();
   const settings = data?.settings;
   return (
-    <footer data-testid="site-footer" className="mt-24 border-t border-beige bg-cream">
+    <footer id="contacto" data-testid="site-footer" className="mt-24 border-t border-beige bg-cream">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-14 sm:px-6 md:grid-cols-12 lg:px-8">
         <div className="space-y-6 md:col-span-5">
           <Logo testId="footer-logo-link" />
@@ -95,8 +96,9 @@ function SiteFooter() {
 /** Phones: floating "Favoritos" pill once something is saved (sits above the product page's sticky bar). */
 function FloatingFavorites() {
   const count = useCartCount();
-  const onProduct = useLocation().pathname.startsWith("/producto/");
-  if (!count) return null;
+  const path = useLocation().pathname;
+  const onProduct = path.startsWith("/producto/");
+  if (!count || !(onProduct || path.startsWith("/catalogo"))) return null;
   return (
     <div className={cn("fixed right-4 z-30 animate-fade-up sm:hidden", onProduct ? "bottom-24" : "bottom-4")}>
       <FavoritesTrigger label />
@@ -105,6 +107,10 @@ function FloatingFavorites() {
 }
 
 export function SiteLayout() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [pathname]);
   return (
     <div className="flex min-h-dvh flex-col">
       <a

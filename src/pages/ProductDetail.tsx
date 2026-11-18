@@ -31,7 +31,7 @@ export default function ProductDetail() {
     if (product) document.title = `${product.name} | CASANOVA`;
   }, [product]);
 
-  const back = () => (location.key !== "default" ? navigate(-1) : navigate("/"));
+  const back = () => (location.key !== "default" ? navigate(-1) : navigate("/catalogo"));
 
   const backButton = (
     <button
@@ -86,7 +86,7 @@ export default function ProductDetail() {
               </button>
             ) : (
               <Link
-                to="/"
+                to="/catalogo"
                 data-testid="product-not-found-home-link"
                 className="inline-flex h-11 items-center rounded-xl bg-brand px-5 text-sm font-semibold text-cream hover:bg-ink"
               >
@@ -117,13 +117,13 @@ export default function ProductDetail() {
       <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
         {backButton}
         <nav aria-label="Ruta de navegación" className="flex min-w-0 items-center gap-1.5 text-sm text-ink">
-          <Link to="/" className="hover:text-brand" data-testid="breadcrumb-home">
+          <Link to="/catalogo" className="hover:text-brand" data-testid="breadcrumb-home">
             Catálogo
           </Link>
           {category && (
             <>
               <ChevronRight className="size-3.5" aria-hidden="true" />
-              <Link to={`/?cat=${category.slug}`} state={{ scrollTo: "catalogo" }} className="hover:text-brand" data-testid="breadcrumb-category">
+              <Link to={`/catalogo?cat=${category.slug}`} state={{ scrollTo: "catalogo" }} className="hover:text-brand" data-testid="breadcrumb-category">
                 {category.name}
               </Link>
             </>

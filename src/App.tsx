@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "@/pages/Home";
+import Inicio from "@/pages/Inicio";
+import Automatizacion from "@/pages/Automatizacion";
 import ProductDetail from "@/pages/ProductDetail";
 import NotFound from "@/pages/NotFound";
 import { SiteLayout } from "@/components/catalog/SiteLayout";
@@ -10,7 +12,9 @@ export default function App() {
   return (
     <Routes>
       <Route element={<SiteLayout />}>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/automatizacion" element={<Automatizacion />} />
+        <Route path="/catalogo" element={<Home />} />
         <Route path="/producto/:id" element={<ProductDetail />} />
         <Route path="*" element={<NotFound />} />
       </Route>

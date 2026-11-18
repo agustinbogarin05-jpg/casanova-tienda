@@ -7,7 +7,7 @@ export default function NotFound() {
       <h1 className="text-3xl font-extrabold text-brand sm:text-4xl">Esta página no existe.</h1>
       <p className="text-ink">Volvé al catálogo para seguir explorando nuestros productos.</p>
       <Link
-        to="/"
+        to="/catalogo"
         data-testid="not-found-home-link"
         className="inline-flex h-11 items-center rounded-xl bg-brand px-5 text-sm font-semibold text-cream transition-colors hover:bg-ink"
       >

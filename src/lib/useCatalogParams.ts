@@ -14,7 +14,7 @@ export function useCatalogParams() {
   const [params, setParams] = useSearchParams();
   const location = useLocation();
   const navigate = useNavigate();
-  const onHome = location.pathname === "/";
+  const onHome = location.pathname === "/catalogo"; // "onHome" = estamos en la página del catálogo
   const q = onHome ? (params.get("q") ?? "") : "";
   const cat = onHome ? (params.get("cat") ?? "") : "";
 
@@ -33,7 +33,7 @@ export function useCatalogParams() {
         });
       } else {
         const search = next.toString();
-        navigate({ pathname: "/", search: search ? `?${search}` : "" }, { state: { scrollTo: "catalogo" } satisfies ScrollState });
+        navigate({ pathname: "/catalogo", search: search ? `?${search}` : "" }, { state: { scrollTo: "catalogo" } satisfies ScrollState });
       }
     },
     [onHome, params, setParams, navigate],
@@ -42,7 +42,7 @@ export function useCatalogParams() {
   const goToSection = useCallback(
     (id: string) => {
       if (onHome) scrollToId(id);
-      else navigate("/", { state: { scrollTo: id } satisfies ScrollState });
+      else navigate("/catalogo", { state: { scrollTo: id } satisfies ScrollState });
     },
     [onHome, navigate],
   );
