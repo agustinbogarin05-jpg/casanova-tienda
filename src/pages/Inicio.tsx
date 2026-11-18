@@ -29,7 +29,7 @@ export default function Inicio() {
           La tecnología que transforma tus espacios
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink sm:text-lg">
-          Casanova es una marca argentina que acerca la tecnología inteligente a hogares, departamentos, oficinas y locales comerciales.
+          Integramos tecnología para que puedas controlar luces, televisores, aire acondicionado y otros dispositivos desde tu celular, crear automatizaciones y simplificar tu rutina. Desde una habitación hasta una casa completa, te asesoramos y acompañamos en cada paso.
         </p>
         <Foto name="inicio-portada.jpg" alt="Un espacio cotidiano con tecnología inteligente" eager className="mt-7 aspect-[4/3] w-full rounded-3xl sm:mt-10 sm:aspect-[16/8]" />
       </section>
