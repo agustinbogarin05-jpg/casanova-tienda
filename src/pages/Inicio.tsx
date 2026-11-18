@@ -20,7 +20,7 @@ const h2 = "text-[28px] font-extrabold leading-tight tracking-tight text-brand s
 export default function Inicio() {
   const { data } = useCatalog();
   useEffect(() => {
-    document.title = "CASANOVA · La tecnología que transforma tus espacios";
+    document.title = "CASANOVA · Automatización de espacios";
   }, []);
   return (
     <div className="space-y-14 pt-8 sm:space-y-24 sm:pt-14" data-testid="inicio-page">
