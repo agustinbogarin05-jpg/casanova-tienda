@@ -39,7 +39,7 @@ export default function Inicio() {
         <div className="grid grid-cols-2 gap-3 sm:gap-6">
           {ACCESOS.map(({ to, title, id, foto }) => (
             <Link key={to} to={to} data-testid={`inicio-acceso-${id}`} className="group block overflow-hidden rounded-2xl border border-beige bg-cream transition-[transform,border-color] duration-300 hover:-translate-y-1 hover:border-brand">
-              <Foto name={foto} alt={title} className="aspect-[4/5] w-full transition-transform duration-500 ease-out group-hover:scale-[1.03] sm:aspect-[4/3]" />
+             <Foto name={foto} alt={title} className={`aspect-[4/5] w-full transition-transform duration-500 ease-out group-hover:scale-[1.03] sm:aspect-[4/3] ${id === "automatizacion" ? "object-[center_35%]" : ""}`} />
               <span className="flex items-center justify-between gap-2 p-3 text-[15px] font-bold leading-tight text-brand sm:p-5 sm:text-xl">
                 {title}
                 <ArrowUpRight className="size-4 shrink-0 text-teal sm:size-5" aria-hidden="true" />
