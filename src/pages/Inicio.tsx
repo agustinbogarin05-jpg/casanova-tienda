@@ -39,17 +39,25 @@ export default function Inicio() {
         <div className="grid grid-cols-2 gap-3 sm:gap-6">
           {ACCESOS.map(({ to, title, id, foto }) => (
             <Link key={to} to={to} data-testid={`inicio-acceso-${id}`} className="group block overflow-hidden rounded-2xl border border-beige bg-cream transition-[transform,border-color] duration-300 hover:-translate-y-1 hover:border-brand">
-             <picture className="block w-full">
-  <source
-    media="(max-width: 639px)"
-    srcSet="/images/inicio-automatizamos-mobile.jpg"
-  />
+             {id === "automatizacion" ? (
+  <picture className="block w-full">
+    <source
+      media="(max-width: 639px)"
+      srcSet="/images/inicio-automatizamos-mobile.jpg"
+    />
+    <Foto
+      name={foto}
+      alt={title}
+      className="aspect-[4/5] w-full transition-transform duration-500 ease-out group-hover:scale-[1.03] sm:aspect-[4/3]"
+    />
+  </picture>
+) : (
   <Foto
     name={foto}
     alt={title}
     className="aspect-[4/5] w-full transition-transform duration-500 ease-out group-hover:scale-[1.03] sm:aspect-[4/3]"
   />
-</picture>
+)}
               <span className="flex items-center justify-between gap-2 p-3 text-[15px] font-bold leading-tight text-brand sm:p-5 sm:text-xl">
                 {title}
                 <ArrowUpRight className="size-4 shrink-0 text-teal sm:size-5" aria-hidden="true" />
