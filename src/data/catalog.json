@@ -12,7 +12,68 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz"
+        },
+        {
+          "label": "Tecnología de control",
+          "value": "Infrarrojo (IR)"
+        },
+        {
+          "label": "Frecuencia infrarroja",
+          "value": "38 kHz"
+        },
+        {
+          "label": "Alimentación",
+          "value": "5 V CC / 1 A"
+        },
+        {
+          "label": "Alcance infrarrojo en interiores",
+          "value": "Hasta 12 m"
+        },
+        {
+          "label": "Aplicación compatible",
+          "value": "Smart Life / Tuya"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Amazon Alexa y Google Assistant"
+        },
+        {
+          "label": "Equipos compatibles",
+          "value": "Televisores, aires acondicionados, ventiladores, reproductores DVD y decodificadores compatibles"
+        },
+        {
+          "label": "Funciones",
+          "value": "Programación de horarios y automatizaciones"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "Diámetro",
+          "value": "40 mm"
+        },
+        {
+          "label": "Temperatura de trabajo",
+          "value": "0 a 50 °C"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
+        },
+        {
+          "label": "Certificación",
+          "value": "RoHS"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -49,6 +110,54 @@
         {
           "label": "Potencia",
           "value": "800 W"
+        },
+        {
+          "label": "Voltaje",
+          "value": "220 V"
+        },
+        {
+          "label": "Frecuencia",
+          "value": "50/60 Hz"
+        },
+        {
+          "label": "Función turbo",
+          "value": "Sí"
+        },
+        {
+          "label": "Velocidades",
+          "value": "2"
+        },
+        {
+          "label": "Material de la varilla",
+          "value": "Acero inoxidable"
+        },
+        {
+          "label": "Material de las cuchillas",
+          "value": "Acero inoxidable"
+        },
+        {
+          "label": "Varilla removible",
+          "value": "Sí"
+        },
+        {
+          "label": "Diseño antisalpicaduras",
+          "value": "Sí"
+        },
+        {
+          "label": "Diseño",
+          "value": "Ergonómico"
+        },
+        {
+          "label": "Alimentación",
+          "value": "Corriente eléctrica"
+        },
+        {
+          "label": "Usos recomendados",
+          "value": "Batidos, purés, sopas, salsas y mezclas"
+        },
+        {
+          "label": "Color",
+          "value": "Plateado con detalles negros y cobre"
         }
       ],
       "includes": [],
@@ -83,7 +192,64 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Resolución",
+          "value": "480p"
+        },
+        {
+          "label": "Batería",
+          "value": "3,7 V / 800 mAh"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz (802.11 b/g/n)"
+        },
+        {
+          "label": "Detección de movimiento",
+          "value": "Hasta 5 m"
+        },
+        {
+          "label": "Ángulo de detección",
+          "value": "90°"
+        },
+        {
+          "label": "Visión nocturna",
+          "value": "LED infrarrojos"
+        },
+        {
+          "label": "Notificaciones",
+          "value": "Al celular cuando alguien toca el timbre"
+        },
+        {
+          "label": "Videollamada",
+          "value": "Sí"
+        },
+        {
+          "label": "Captura de imágenes",
+          "value": "Sí, con almacenamiento en la nube"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono y comunicación de voz"
+        },
+        {
+          "label": "Instalación",
+          "value": "Superficial, adhesiva o mediante perforación"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Alcance de transmisión indicado",
+          "value": "Hasta 50 m"
+        },
+        {
+          "label": "Recarga",
+          "value": "USB"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -116,7 +282,52 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz y Bluetooth"
+        },
+        {
+          "label": "Tomacorrientes",
+          "value": "2"
+        },
+        {
+          "label": "Teclas táctiles",
+          "value": "2"
+        },
+        {
+          "label": "Panel frontal",
+          "value": "Vidrio templado"
+        },
+        {
+          "label": "Indicador",
+          "value": "LED"
+        },
+        {
+          "label": "Corriente máxima",
+          "value": "10 A"
+        },
+        {
+          "label": "Tensión máxima publicada",
+          "value": "250 V"
+        },
+        {
+          "label": "Material",
+          "value": "Plástico y aluminio"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Android e iOS"
+        },
+        {
+          "label": "Control",
+          "value": "Desde la aplicación"
+        },
+        {
+          "label": "Asistentes de voz",
+          "value": "Alexa y Google Home"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -149,7 +360,40 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Alimentación",
+          "value": "90–250 V CA"
+        },
+        {
+          "label": "Frecuencia",
+          "value": "50/60 Hz"
+        },
+        {
+          "label": "Corriente máxima",
+          "value": "10 A"
+        },
+        {
+          "label": "Potencia máxima publicada",
+          "value": "2200 W"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz (802.11 b/g/n)"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Android e iOS"
+        },
+        {
+          "label": "Material",
+          "value": "ABS V0"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "88 × 38 × 22 mm"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -184,8 +428,40 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Canales",
+          "label": "Botones",
           "value": "1"
+        },
+        {
+          "label": "Frecuencia de radio",
+          "value": "433 MHz"
+        },
+        {
+          "label": "Alimentación",
+          "value": "Batería CR2032 (3 V)"
+        },
+        {
+          "label": "Comunicación",
+          "value": "Radiofrecuencia"
+        },
+        {
+          "label": "Instalación",
+          "value": "Superficial mediante adhesivo"
+        },
+        {
+          "label": "Requisito de funcionamiento",
+          "value": "Requiere receptor compatible; no funciona de manera independiente"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "86 × 86 × 15 mm"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
         }
       ],
       "includes": [],
@@ -222,8 +498,40 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Canales",
-          "value": "2"
+          "label": "Botones",
+          "value": "2 independientes"
+        },
+        {
+          "label": "Frecuencia de radio",
+          "value": "433 MHz"
+        },
+        {
+          "label": "Alimentación",
+          "value": "Batería CR2032 (3 V)"
+        },
+        {
+          "label": "Comunicación",
+          "value": "Radiofrecuencia"
+        },
+        {
+          "label": "Instalación",
+          "value": "Superficial con adhesivo"
+        },
+        {
+          "label": "Requisito de funcionamiento",
+          "value": "Requiere receptor compatible; no funciona de manera independiente"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "86 × 86 × 15 mm"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
         }
       ],
       "includes": [],
@@ -260,8 +568,40 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Canales",
-          "value": "3"
+          "label": "Botones",
+          "value": "3 independientes"
+        },
+        {
+          "label": "Frecuencia de radio",
+          "value": "433 MHz"
+        },
+        {
+          "label": "Alimentación",
+          "value": "Batería CR2032 (3 V)"
+        },
+        {
+          "label": "Comunicación",
+          "value": "Radiofrecuencia"
+        },
+        {
+          "label": "Instalación",
+          "value": "Superficial; no requiere cableado eléctrico en el punto de instalación"
+        },
+        {
+          "label": "Requisito de funcionamiento",
+          "value": "Requiere receptor compatible; no funciona de manera independiente"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "86 × 86 × 15 mm"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
         }
       ],
       "includes": [],
@@ -296,7 +636,60 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Tecnología de detección",
+          "value": "PIR"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz"
+        },
+        {
+          "label": "Distancia máxima de detección",
+          "value": "6 m"
+        },
+        {
+          "label": "Ángulo de detección",
+          "value": "128°"
+        },
+        {
+          "label": "Alimentación",
+          "value": "2 pilas AAA de 1,5 V"
+        },
+        {
+          "label": "Notificaciones",
+          "value": "Al celular al detectar movimiento"
+        },
+        {
+          "label": "Registro de eventos",
+          "value": "En la aplicación"
+        },
+        {
+          "label": "Aviso de batería baja",
+          "value": "Sí"
+        },
+        {
+          "label": "Compartir dispositivo",
+          "value": "Sí"
+        },
+        {
+          "label": "Automatizaciones",
+          "value": "Permite crear escenas con otros dispositivos"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "71 × 25 × 20 mm"
+        },
+        {
+          "label": "Peso",
+          "value": "17 g"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -329,7 +722,32 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Diámetro",
+          "value": "52 mm"
+        },
+        {
+          "label": "Alimentación",
+          "value": "12–24 V"
+        },
+        {
+          "label": "Tipo de interruptor",
+          "value": "Táctil de instalación oculta"
+        },
+        {
+          "label": "Formato",
+          "value": "Circular"
+        },
+        {
+          "label": "Tensión",
+          "value": "Baja tensión (12–24 V)"
+        },
+        {
+          "label": "Aplicación",
+          "value": "Diseñado para instalaciones de iluminación LED"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -362,7 +780,68 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz"
+        },
+        {
+          "label": "Alimentación",
+          "value": "5 V CC / 1 A"
+        },
+        {
+          "label": "Control",
+          "value": "Universal mediante infrarrojos"
+        },
+        {
+          "label": "Frecuencia infrarroja",
+          "value": "38 kHz"
+        },
+        {
+          "label": "Alcance infrarrojo en interiores",
+          "value": "Hasta 10 m"
+        },
+        {
+          "label": "Sensor",
+          "value": "Temperatura y humedad integrado"
+        },
+        {
+          "label": "Equipos compatibles",
+          "value": "Televisores, aires acondicionados, equipos de audio y otros dispositivos con infrarrojo"
+        },
+        {
+          "label": "Asistentes de voz",
+          "value": "Alexa y Google Assistant"
+        },
+        {
+          "label": "Automatizaciones",
+          "value": "Según las condiciones ambientales"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "60 × 60 × 20 mm"
+        },
+        {
+          "label": "Peso",
+          "value": "32,5 g"
+        },
+        {
+          "label": "Instalación",
+          "value": "Superficial"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -397,12 +876,28 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Corriente máxima",
-          "value": "10 A"
+          "label": "Aplicación",
+          "value": "Smart Life"
         },
         {
-          "label": "Conectividad",
-          "value": "Wi-Fi"
+          "label": "Control",
+          "value": "Encendido y apagado a distancia"
+        },
+        {
+          "label": "Programación",
+          "value": "Horarios de funcionamiento"
+        },
+        {
+          "label": "Comandos de voz",
+          "value": "Compatible con asistentes compatibles"
+        },
+        {
+          "label": "Monitoreo energético",
+          "value": "Permite consultar el consumo de los dispositivos conectados"
+        },
+        {
+          "label": "Corriente máxima",
+          "value": "10 A"
         }
       ],
       "includes": [],
@@ -437,7 +932,64 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Cantidad de teclas",
+          "value": "2"
+        },
+        {
+          "label": "Circuitos",
+          "value": "2 independientes"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 2,4 GHz y Bluetooth"
+        },
+        {
+          "label": "Alimentación",
+          "value": "220–240 V CA"
+        },
+        {
+          "label": "Frecuencia eléctrica",
+          "value": "50/60 Hz"
+        },
+        {
+          "label": "Potencia máxima",
+          "value": "1000 W"
+        },
+        {
+          "label": "Corriente máxima",
+          "value": "10 A"
+        },
+        {
+          "label": "Aplicación compatible",
+          "value": "Akai Energy Smart"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Android e iOS"
+        },
+        {
+          "label": "Panel",
+          "value": "Vidrio templado táctil"
+        },
+        {
+          "label": "Indicador",
+          "value": "LED para facilitar su ubicación en la oscuridad"
+        },
+        {
+          "label": "Colores disponibles",
+          "value": "Blanco y negro"
+        },
+        {
+          "label": "Protección",
+          "value": "IP20"
+        },
+        {
+          "label": "Instalación",
+          "value": "Requiere conexión a línea y neutro"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -476,8 +1028,40 @@
           "value": "13 litros"
         },
         {
-          "label": "Apertura",
-          "value": "Automática mediante sensor de movimiento"
+          "label": "Sistema de apertura",
+          "value": "Sensor automático"
+        },
+        {
+          "label": "Alimentación",
+          "value": "Recargable"
+        },
+        {
+          "label": "Material",
+          "value": "Plástico"
+        },
+        {
+          "label": "Compartimentos",
+          "value": "1"
+        },
+        {
+          "label": "Ubicación",
+          "value": "Sobre el piso"
+        },
+        {
+          "label": "Largo",
+          "value": "25 cm"
+        },
+        {
+          "label": "Alto",
+          "value": "30 cm"
+        },
+        {
+          "label": "Peso",
+          "value": "1 kg"
+        },
+        {
+          "label": "Empotrable",
+          "value": "No"
         }
       ],
       "includes": [],
@@ -514,12 +1098,60 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Conectividad",
-          "value": "Wi-Fi"
+          "label": "Capacidad",
+          "value": "Hasta 100 usuarios"
         },
         {
-          "label": "Acceso",
-          "value": "Biométrico"
+          "label": "Métodos de desbloqueo",
+          "value": "Huella dactilar, contraseña numérica, llave mecánica y aplicación móvil"
+        },
+        {
+          "label": "Aplicación",
+          "value": "Tuya; requiere una puerta de enlace Bluetooth para control desde el celular"
+        },
+        {
+          "label": "Sensor biométrico",
+          "value": "De semiconductores"
+        },
+        {
+          "label": "Tiempo de reconocimiento de huella indicado",
+          "value": "0,3 segundos"
+        },
+        {
+          "label": "Tiempo de desbloqueo indicado",
+          "value": "1 segundo"
+        },
+        {
+          "label": "Contraseña virtual",
+          "value": "Sí"
+        },
+        {
+          "label": "Bloqueo automático",
+          "value": "Sí"
+        },
+        {
+          "label": "Material",
+          "value": "Aleación de aluminio"
+        },
+        {
+          "label": "Largo total",
+          "value": "260 mm"
+        },
+        {
+          "label": "Ancho de la base",
+          "value": "62 mm"
+        },
+        {
+          "label": "Ancho total con manija",
+          "value": "130 mm"
+        },
+        {
+          "label": "Alto de la base",
+          "value": "25 mm"
+        },
+        {
+          "label": "Alto total con manija",
+          "value": "70 mm"
         }
       ],
       "includes": [],
@@ -560,8 +1192,68 @@
           "value": "15 W"
         },
         {
-          "label": "Iluminación",
+          "label": "Flujo luminoso",
+          "value": "1500 lúmenes"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V"
+        },
+        {
+          "label": "Frecuencia",
+          "value": "50 Hz"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi"
+        },
+        {
+          "label": "Colores",
           "value": "RGB"
+        },
+        {
+          "label": "Temperatura de color",
+          "value": "Cálida 3000 K y fría 6000 K"
+        },
+        {
+          "label": "Regulación",
+          "value": "Intensidad regulable"
+        },
+        {
+          "label": "Zócalo",
+          "value": "E27"
+        },
+        {
+          "label": "Ángulo de apertura",
+          "value": "270°"
+        },
+        {
+          "label": "Índice de reproducción cromática",
+          "value": "CRI >80"
+        },
+        {
+          "label": "Vida útil",
+          "value": "25.000 horas"
+        },
+        {
+          "label": "Protección",
+          "value": "IP20"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "65 × 112 mm"
+        },
+        {
+          "label": "Eficiencia energética indicada",
+          "value": "A+"
+        },
+        {
+          "label": "Asistentes de voz",
+          "value": "Alexa y Google Assistant"
+        },
+        {
+          "label": "Modelo",
+          "value": "IM0503020"
         }
       ],
       "includes": [],
@@ -602,8 +1294,52 @@
           "value": "10 W"
         },
         {
-          "label": "Iluminación",
-          "value": "RGB"
+          "label": "Flujo luminoso",
+          "value": "810 lúmenes"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V"
+        },
+        {
+          "label": "Tecnología",
+          "value": "LED RGB"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi y Bluetooth"
+        },
+        {
+          "label": "Zócalo",
+          "value": "E27"
+        },
+        {
+          "label": "Regulación",
+          "value": "Intensidad regulable"
+        },
+        {
+          "label": "Vida útil",
+          "value": "25.000 horas"
+        },
+        {
+          "label": "Aplicación compatible",
+          "value": "Smart Life"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Android e iOS"
+        },
+        {
+          "label": "Asistentes de voz",
+          "value": "Alexa y Google Assistant"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
+        },
+        {
+          "label": "Formato",
+          "value": "Bulbo A19"
         }
       ],
       "includes": [],
@@ -644,8 +1380,28 @@
           "value": "50 cm"
         },
         {
-          "label": "Activación",
-          "value": "Sensor de movimiento"
+          "label": "Luces LED",
+          "value": "4"
+        },
+        {
+          "label": "Sensor",
+          "value": "Movimiento"
+        },
+        {
+          "label": "Recarga",
+          "value": "USB tipo C"
+        },
+        {
+          "label": "Tonalidades",
+          "value": "Fría, neutra y cálida"
+        },
+        {
+          "label": "Voltaje",
+          "value": "5 V"
+        },
+        {
+          "label": "Protección",
+          "value": "IP20"
         }
       ],
       "includes": [],
@@ -682,12 +1438,28 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Largo",
+          "label": "Longitud",
           "value": "5 m"
         },
         {
+          "label": "Tecnología",
+          "value": "LED"
+        },
+        {
           "label": "Iluminación",
-          "value": "RGB"
+          "value": "RGB multicolor"
+        },
+        {
+          "label": "Uso",
+          "value": "Decorativo y ambiental"
+        },
+        {
+          "label": "Formato",
+          "value": "Flexible"
+        },
+        {
+          "label": "Instalación",
+          "value": "Adhesiva"
         }
       ],
       "includes": [],
@@ -724,12 +1496,32 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Largo",
+          "label": "Longitud",
           "value": "5 m"
         },
         {
+          "label": "Tecnología",
+          "value": "LED RGB"
+        },
+        {
           "label": "Iluminación",
-          "value": "RGB"
+          "value": "Multicolor"
+        },
+        {
+          "label": "Control",
+          "value": "Aplicación móvil y control remoto incluido"
+        },
+        {
+          "label": "Efectos",
+          "value": "Selección de colores y efectos"
+        },
+        {
+          "label": "Formato",
+          "value": "Flexible"
+        },
+        {
+          "label": "Uso",
+          "value": "Decorativo y ambiental"
         }
       ],
       "includes": [],
@@ -770,8 +1562,28 @@
           "value": "40 cm"
         },
         {
-          "label": "Activación",
-          "value": "Sensor de movimiento"
+          "label": "Sensor",
+          "value": "Movimiento para interiores"
+        },
+        {
+          "label": "Tonalidades",
+          "value": "Blanco frío, blanco natural y amarillo cálido"
+        },
+        {
+          "label": "Intensidad",
+          "value": "Regulable"
+        },
+        {
+          "label": "Recarga",
+          "value": "USB tipo C"
+        },
+        {
+          "label": "Fijación",
+          "value": "Imán incorporado y cinta adhesiva para superficies no metálicas"
+        },
+        {
+          "label": "Cuerpo",
+          "value": "Aleación de aluminio"
         }
       ],
       "includes": [],
@@ -812,8 +1624,28 @@
           "value": "60 cm"
         },
         {
-          "label": "Activación",
-          "value": "Sensor de movimiento"
+          "label": "Sensor",
+          "value": "Movimiento para interiores"
+        },
+        {
+          "label": "Tonalidades",
+          "value": "Blanco frío, blanco natural y amarillo cálido"
+        },
+        {
+          "label": "Intensidad",
+          "value": "Regulable"
+        },
+        {
+          "label": "Recarga",
+          "value": "USB tipo C"
+        },
+        {
+          "label": "Fijación",
+          "value": "Imán incorporado y cinta adhesiva para superficies no metálicas"
+        },
+        {
+          "label": "Cuerpo",
+          "value": "Aleación de aluminio"
         }
       ],
       "includes": [],
@@ -852,6 +1684,42 @@
         {
           "label": "Cantidad de LED",
           "value": "60"
+        },
+        {
+          "label": "Flujo luminoso indicado",
+          "value": "Hasta 2500 lúmenes"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "22 cm de alto × 6,5 cm de largo × 3,5 cm de ancho"
+        },
+        {
+          "label": "Batería",
+          "value": "Litio recargable de 2 Ah"
+        },
+        {
+          "label": "Tiempo de carga indicado",
+          "value": "20 horas"
+        },
+        {
+          "label": "Autonomía indicada",
+          "value": "3 a 6 horas"
+        },
+        {
+          "label": "Encendido automático",
+          "value": "Sí"
+        },
+        {
+          "label": "Protección",
+          "value": "Contra sobrecarga y sobredescarga"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Color",
+          "value": "Blanco"
         }
       ],
       "includes": [],
@@ -888,12 +1756,36 @@
       "promo_label": "",
       "specs": [
         {
-          "label": "Alimentación",
-          "value": "Solar"
+          "label": "LED",
+          "value": "100"
         },
         {
-          "label": "Activación",
-          "value": "Sensor de movimiento"
+          "label": "Color de luz",
+          "value": "Blanca fría"
+        },
+        {
+          "label": "Alimentación",
+          "value": "Energía solar"
+        },
+        {
+          "label": "Sensor",
+          "value": "Movimiento"
+        },
+        {
+          "label": "Modos de funcionamiento",
+          "value": "3"
+        },
+        {
+          "label": "Fotocélula",
+          "value": "Activación según la iluminación ambiental"
+        },
+        {
+          "label": "Protección",
+          "value": "IP65 contra el agua y el polvo"
+        },
+        {
+          "label": "Estructura",
+          "value": "ABS"
         }
       ],
       "includes": [],
@@ -931,11 +1823,35 @@
       "specs": [
         {
           "label": "Alimentación",
-          "value": "Solar"
+          "value": "Energía solar"
         },
         {
-          "label": "Activación",
-          "value": "Sensor de movimiento"
+          "label": "Sensor",
+          "value": "Movimiento"
+        },
+        {
+          "label": "Distancia de detección indicada",
+          "value": "5 a 8 m"
+        },
+        {
+          "label": "Protección",
+          "value": "IP65 contra el agua y el polvo"
+        },
+        {
+          "label": "Material",
+          "value": "ABS"
+        },
+        {
+          "label": "Altura",
+          "value": "37 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "12 cm"
+        },
+        {
+          "label": "Control",
+          "value": "Remoto"
         }
       ],
       "includes": [],
@@ -970,7 +1886,52 @@
       "availability": "on_request",
       "published": true,
       "promo_label": "",
-      "specs": [],
+      "specs": [
+        {
+          "label": "Iluminación",
+          "value": "360° sin parpadeos, según descripción del fabricante"
+        },
+        {
+          "label": "Cuerpo",
+          "value": "Aleación de aluminio"
+        },
+        {
+          "label": "Base",
+          "value": "Antideslizante de silicona"
+        },
+        {
+          "label": "Tonalidades",
+          "value": "2900 K y 3100 K"
+        },
+        {
+          "label": "Batería",
+          "value": "1800 mAh"
+        },
+        {
+          "label": "Autonomía indicada",
+          "value": "Hasta 10 horas en baja intensidad y 5–6 horas en alta intensidad"
+        },
+        {
+          "label": "Materiales",
+          "value": "Aleación de aluminio y PMMA"
+        },
+        {
+          "label": "Voltaje",
+          "value": "5 V"
+        },
+        {
+          "label": "Fuente de luz",
+          "value": "LED integrada"
+        },
+        {
+          "label": "Interruptor",
+          "value": "Táctil"
+        },
+        {
+          "label": "Tiempo de carga aproximado",
+          "value": "4 horas"
+        }
+      ],
       "includes": [],
       "warranty": "",
       "tags": [
@@ -1007,6 +1968,22 @@
         {
           "label": "Potencia",
           "value": "10 W"
+        },
+        {
+          "label": "Temperatura de color",
+          "value": "6500 K (blanco frío)"
+        },
+        {
+          "label": "Formato",
+          "value": "Bulbo A60"
+        },
+        {
+          "label": "Rosca",
+          "value": "E27"
+        },
+        {
+          "label": "Vida útil indicada",
+          "value": "500 días"
         }
       ],
       "includes": [],
@@ -1045,6 +2022,34 @@
         {
           "label": "Potencia",
           "value": "10 W"
+        },
+        {
+          "label": "Tono de luz",
+          "value": "Fría"
+        },
+        {
+          "label": "Modo dual",
+          "value": "Lámpara fija o luz portátil"
+        },
+        {
+          "label": "Autonomía indicada",
+          "value": "Hasta 2 horas sin suministro eléctrico"
+        },
+        {
+          "label": "Sistema de carga",
+          "value": "Se recarga mientras permanece conectada a la red eléctrica"
+        },
+        {
+          "label": "Zócalo",
+          "value": "E27"
+        },
+        {
+          "label": "Batería",
+          "value": "Litio de 1200 mAh"
+        },
+        {
+          "label": "Vida útil indicada",
+          "value": "15.000 horas"
         }
       ],
       "includes": [],
@@ -1083,6 +2088,30 @@
         {
           "label": "Potencia",
           "value": "30 W"
+        },
+        {
+          "label": "Temperatura de color",
+          "value": "6000 K (luz fría)"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "8 × 9 × 2,8 cm"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminio"
+        },
+        {
+          "label": "Protección",
+          "value": "IP65 contra el agua y el polvo"
+        },
+        {
+          "label": "Eficiencia energética indicada",
+          "value": "A+"
+        },
+        {
+          "label": "Carcasa",
+          "value": "Negra"
         }
       ],
       "includes": [],
@@ -1156,8 +2185,68 @@
           "value": "15 W"
         },
         {
-          "label": "Iluminación",
+          "label": "Flujo luminoso",
+          "value": "1500 lúmenes"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V"
+        },
+        {
+          "label": "Frecuencia",
+          "value": "50 Hz"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi"
+        },
+        {
+          "label": "Colores",
           "value": "RGB"
+        },
+        {
+          "label": "Temperatura de color",
+          "value": "Cálida 3000 K y fría 6000 K"
+        },
+        {
+          "label": "Regulación",
+          "value": "Intensidad regulable"
+        },
+        {
+          "label": "Zócalo",
+          "value": "E27"
+        },
+        {
+          "label": "Ángulo de apertura",
+          "value": "270°"
+        },
+        {
+          "label": "Índice de reproducción cromática",
+          "value": "CRI >80"
+        },
+        {
+          "label": "Vida útil",
+          "value": "25.000 horas"
+        },
+        {
+          "label": "Protección",
+          "value": "IP20"
+        },
+        {
+          "label": "Dimensiones",
+          "value": "65 × 112 mm"
+        },
+        {
+          "label": "Eficiencia energética indicada",
+          "value": "A+"
+        },
+        {
+          "label": "Asistentes de voz",
+          "value": "Alexa y Google Assistant"
+        },
+        {
+          "label": "Modelo",
+          "value": "IM0503020"
         }
       ],
       "includes": [],
@@ -1198,8 +2287,52 @@
           "value": "10 W"
         },
         {
-          "label": "Iluminación",
-          "value": "RGB"
+          "label": "Flujo luminoso",
+          "value": "810 lúmenes"
+        },
+        {
+          "label": "Tensión",
+          "value": "220 V"
+        },
+        {
+          "label": "Tecnología",
+          "value": "LED RGB"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi y Bluetooth"
+        },
+        {
+          "label": "Zócalo",
+          "value": "E27"
+        },
+        {
+          "label": "Regulación",
+          "value": "Intensidad regulable"
+        },
+        {
+          "label": "Vida útil",
+          "value": "25.000 horas"
+        },
+        {
+          "label": "Aplicación compatible",
+          "value": "Smart Life"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Android e iOS"
+        },
+        {
+          "label": "Asistentes de voz",
+          "value": "Alexa y Google Assistant"
+        },
+        {
+          "label": "Uso",
+          "value": "Interior"
+        },
+        {
+          "label": "Formato",
+          "value": "Bulbo A19"
         }
       ],
       "includes": [],
@@ -1285,7 +2418,3 @@
     "youtube_url": ""
   }
 }
-
-
-
-
